@@ -1,0 +1,163 @@
+header, section, aside, nav, article, figure, figcaption {
+    display: block;
+}
+
+body {
+    background-color: #f9f8f6;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    background-color: #ffe6cc;
+}
+
+header {
+    height: 110px;
+    background-color: #ff9900;
+}
+
+h1 {
+    
+    width: 940px;
+    height: 55px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+nav, footer {
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    height: 30px;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav li a{
+    color: #000000;
+}
+
+nav li a:hover{
+    color: #eeeeee;
+    background-color: crimson;
+    padding: 6px;
+    border-radius: 8px;
+    transition: 0.5s;
+    
+}
+
+section.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #aeaca8;
+    margin-top: 25px;
+}
+
+article {
+    clear: both;
+    width: 100%;
+}
+
+hgroup {
+    margin-top: 40px;
+}
+
+figure {
+    float: left;
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    margin: 0px 20px;
+}
+
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+
+aside {
+    width: 230px;
+    float: left;
+    padding: 20px 0px 0px 20px;
+}
+
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1 px solid #eeeeee;
+}
+
+aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;
+}
+
+a {
+    color: #de6581;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #de6581;
+}
+
+aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: dodgerblue;
+}
+
+footer {
+    font-size: 80%;
+    padding: 15px 15px 15px 15px;
+}
+
+.title span b a {
+    /* background-color: dodgerblue; */
+    color: #eeeeee;
+}
+
+.title span b a:hover {
+    background-color: midnightblue;
+    color: darkorange;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+footer p span a {
+    color: #000000;
+}
+
+footer p span a:hover {
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.para {
+    padding-right: 50px;
+}
